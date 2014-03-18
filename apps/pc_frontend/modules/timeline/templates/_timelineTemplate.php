@@ -48,8 +48,8 @@
           </div>
           {{if member.self==true}}
           <div class="timeline-post-delete-confirm" id="timeline-post-delete-confirm-${id}">
-            <div class="partsHeading"><h3>投稿の削除</h3></div>
-            <div class="timeline-post-delete-confirm-context">削除してよろしいですか？</div>
+            <div class="partsHeading"><h3>删除评论</h3></div>
+            <div class="timeline-post-delete-confirm-context">你确认要删除？</div>
             <div class="timeline-post-delete-confirm-content">
               <div class="timeline-post-member-image">
                 <a href="${member.profile_url}" title="${member.name}"><img src="${member.profile_image}" alt="${member.name}" /></a>
@@ -63,7 +63,7 @@
                 </div>
               </div>
               <div class="timeline-post-delete" style="text-align: center;">
-              <button class="timeline-post-delete-button btn btn-danger"data-activity-id="${id}">削除</button>
+              <button class="timeline-post-delete-button btn btn-danger"data-activity-id="${id}">删除</button>
               </div>
               <div class="timeline-post-delete-loading" style="text-align: center; display: none;">
                 <?php echo op_image_tag('ajax-loader.gif') ?>

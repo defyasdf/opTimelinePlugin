@@ -73,7 +73,7 @@ $(function(){
 <div class="partsHeading"><h3><?php echo $community->getName() ?><?php echo $op_term['activity'] ?></h3></div>
     <div class="timeline">
       <div class="timeline-postform well">
-        <textarea id="timeline-textarea" class="input-xlarge" rows="1" tabindex="1" placeholder="今何してる？"></textarea>
+        <textarea id="timeline-textarea" class="input-xlarge" rows="1" tabindex="1" placeholder="现在在干什么？"></textarea>
         <div id="timeline-submit-loader"><?php echo op_image_tag('ajax-loader.gif', array()) ?></div>
         <div id="timeline-submit-error"></div>
         <div id="timeline-submit-area">

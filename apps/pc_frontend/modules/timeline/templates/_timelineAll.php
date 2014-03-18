@@ -59,11 +59,11 @@ $(function(){
 
 <?php include_partial('timeline/timelineTemplate') ?>
 
-<div class="partsHeading"><h3>SNSメンバー全員の<?php echo $op_term['activity'] ?></h3></div>
+<div class="partsHeading"><h3>所有成员的<?php echo $op_term['activity'] ?></h3></div>
 
     <div class="timeline">
       <div class="timeline-postform well">
-        <textarea id="timeline-textarea" class="input-xlarge" rows="1" placeholder="今何してる？" tabindex="1" onkeypress="return (this.value.length < 1139)"></textarea>
+        <textarea id="timeline-textarea" class="input-xlarge" rows="1" placeholder="现在在干什么？" tabindex="1" onkeypress="return (this.value.length < 1139)"></textarea>
         <div id="timeline-submit-loader"><?php echo op_image_tag('ajax-loader.gif', array()) ?></div>
         <div id="timeline-submit-error"></div>
         <div id="timeline-upload-error"></div>
