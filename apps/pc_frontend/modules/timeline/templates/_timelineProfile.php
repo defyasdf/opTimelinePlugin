@@ -29,7 +29,7 @@ var MAXLENGTH = 140;
 
 <?php include_partial('timeline/timelineTemplate') ?>
 
-<div class="partsHeading"><h3>メンバーの<?php echo $op_term['activity'] ?></h3></div>
+<div class="partsHeading"><h3>成员的<?php echo $op_term['activity'] ?></h3></div>
 
 <div class="timeline">
   <div style="display: none" id="timeline-submit-button" class="btn btn-primary timeline-submit" disabled="disabled"></div>
