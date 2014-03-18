@@ -38,7 +38,7 @@ var fileMaxSize = '<?php echo opTimelinePluginUtil::getFileSizeMax() ?>';
           </div>
 
           <div class="timeline-post-control">
-            <a href="#timeline-${id}" class="timeline-comment-link">コメントする</a>
+            <a href="#timeline-${id}" class="timeline-comment-link">评论</a>
             <span class="timeline-post-control-show">
               {{if public_status == 'friend' }}
               <span class="public-flag"><?php echo $op_term['my_friend'] ?>まで</span>
@@ -92,6 +92,6 @@ var fileMaxSize = '<?php echo opTimelinePluginUtil::getFileSizeMax() ?>';
 </div>
 <div id="gorgon-submit" data-post-csrftoken="<?php echo $token; ?>" data-post-baseurl="<?php echo url_for('@homepage'); ?>"></div>
 <div class="row">
-  <button class="span12 btn small" id="gorgon-loadmore">もっと読む</button>
+  <button class="span12 btn small" id="gorgon-loadmore">更多</button>
 </div>
 

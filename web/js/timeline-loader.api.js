@@ -173,7 +173,7 @@ function timelineAllLoad() {
         if ($.isEmptyObject(response.data))
         {
           $('#timeline-loading').hide();
-          $('#timeline-list').text('投稿されていません。');
+          $('#timeline-list').text('未发布');
           $('#timeline-list').show();
         }
         else
@@ -184,7 +184,7 @@ function timelineAllLoad() {
       },
       error: function(XMLHttpRequest, textStatus, errorThrown){
         $('#timeline-loading').hide();
-        $('#timeline-list').text('投稿されていません。');
+        $('#timeline-list').text('未发布');
         $('#timeline-list').show();
       }
     });
@@ -199,7 +199,7 @@ function timelineAllLoad() {
         if ($.isEmptyObject(response.data))
         {
           $('#timeline-loading').hide();
-          $('#timeline-list').text('投稿されていません。');
+          $('#timeline-list').text('未发布');
           $('#timeline-list').show();
         }
         else
@@ -210,7 +210,7 @@ function timelineAllLoad() {
       },
       error: function(XMLHttpRequest, textStatus, errorThrown){
         $('#timeline-loading').hide();
-        $('#timeline-list').text('投稿されていません。');
+        $('#timeline-list').text('未发布');
         $('#timeline-list').show();
       }
     });

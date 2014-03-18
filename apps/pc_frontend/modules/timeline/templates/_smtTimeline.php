@@ -46,21 +46,21 @@ var fileMaxSizeInfo = {
           </div>
 
           <div class="timeline-post-control">
-            <a href="#timeline-${id}" class="timeline-comment-link">コメントする</a>
+            <a href="#timeline-${id}" class="timeline-comment-link">评论</a>
             <span class="timeline-public-flag-show">
               {{if public_status == 'friend' }}
               <span class="icon-lock"></span>
               <span class="public-flag"><?php echo $op_term['my_friend'] ?>まで</span>
               {{else public_status == 'private' }}
               <span class="icon-lock"></span>
-              <span class="public-flag">公開しない</span>
+              <span class="public-flag">公开范围</span>
               {{/if}}
             </span>
           </div>
 
           <a>
             <div id="timeline-comment-loadmore-${id}" data-timeline-id="${id}" class="timeline-comment-loadmore">
-              <i class="icon-comment"></i>&nbsp;以前のコメントを見る
+              <i class="icon-comment"></i>&nbsp;查看以前的评论
               <span id="timeline-comment-loader-${id}" class="timeline-comment-loader">
                 <?php echo op_image_tag('ajax-loader.gif', array()) ?>
               </span>
@@ -104,16 +104,16 @@ var fileMaxSizeInfo = {
 <div style="display: none;">
 <div id="timeline-warning">
   <div class="modal-header">
-    <h3>投稿エラー</h3>
+    <h3>发布出错</h3>
   </div>
   <div class="modal-body">
-    <p>本文が入力されていません</p>
+    <p>正文未填写</p>
   </div>
 </div>
 </div>
 
 <div class="row">
-  <div class="gadget_header span12">SNS全体の<?php echo $op_term['activity'] ?></div>
+  <div class="gadget_header span12">所有人<?php echo $op_term['activity'] ?></div>
 </div>
 
 <div class="timeline" style="margin-left: 0px;">
@@ -129,6 +129,6 @@ var fileMaxSizeInfo = {
 
 <hr class="toumei">
 <div class="row">
-  <button class="span12 btn small" id="gorgon-loadmore">もっと読む</button>
+  <button class="span12 btn small" id="gorgon-loadmore">更多</button>
 </div>
 

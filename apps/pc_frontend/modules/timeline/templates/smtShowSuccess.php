@@ -38,7 +38,7 @@ var viewPhoto = '<?php echo $viewPhoto ?>';
           </div>
 
           <div class="timeline-post-control">
-            <a href="#timeline-${id}" class="timeline-comment-link">コメントする</a>
+            <a href="#timeline-${id}" class="timeline-comment-link">评论</a>
             <span class="timeline-public-flag-show">
               {{if public_status == 'friend' }}
               <span class="icon-lock"></span>

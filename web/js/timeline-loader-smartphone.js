@@ -186,7 +186,7 @@ function timelineAllLoad() {
       },
       error: function(XMLHttpRequest, textStatus, errorThrown){
         $('#timeline-list-loader').hide();
-        $('#timeline-list').text('投稿されていません。');
+        $('#timeline-list').text('未发布');
         $('#timeline-list').show();
         $('.flashTimelineDom').remove();
       }
@@ -204,7 +204,7 @@ function timelineAllLoad() {
       },
       error: function(XMLHttpRequest, textStatus, errorThrown){
         $('#timeline-list-loader').hide();
-        $('#timeline-list').text('投稿されていません。');
+        $('#timeline-list').text('未发布');
         $('#timeline-list').show();
         $('.flashTimelineDom').remove();
       }

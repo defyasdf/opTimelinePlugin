@@ -48,7 +48,7 @@ var fileMaxSizeInfo = {
 
 
           <div class="timeline-post-control">
-            <a href="#timeline-${id}" class="timeline-comment-link">コメントする</a>
+            <a href="#timeline-${id}" class="timeline-comment-link">评论</a>
             <span class="timeline-post-control-show">
               {{if public_status == 'friend' }}
               <span class="icon-lock"></span>
@@ -114,5 +114,5 @@ var fileMaxSizeInfo = {
 <?php echo op_image_tag('ajax-loader.gif', array('alt' => 'Now Loading...')) ?>
 </div>
 <div class="row">
-  <button class="span12 btn small" id="gorgon-loadmore">もっと読む</button>
+  <button class="span12 btn small" id="gorgon-loadmore">更多</button>
 </div>

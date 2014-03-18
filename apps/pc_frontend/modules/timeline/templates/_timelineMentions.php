@@ -45,7 +45,7 @@ $(function(){
       <div id="timeline-list" data-last-id=""data-loadmore-id="">
 
       </div>
-      <button class="btn btn-small" id="timeline-loadmore" style="width: 100%;">もっと読む</button>
+      <button class="btn btn-small" id="timeline-loadmore" style="width: 100%;">更多</button>
       <div id="timeline-loadmore-loading"><?php echo op_image_tag('ajax-loader.gif', array()) ?></div>
     </div>
 

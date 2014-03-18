@@ -89,7 +89,7 @@ $(function(){
       <div id="timeline-list" data-last-id=""data-loadmore-id="">
       </div>
 
-      <button class="gorgon-button button" id="timeline-loadmore">もっと読む</button>
+      <button class="gorgon-button button" id="timeline-loadmore">更多</button>
       <div id="timeline-loadmore-loading"><?php echo op_image_tag('ajax-loader.gif', array()) ?></div>
     </div>
 
